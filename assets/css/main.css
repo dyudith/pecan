@@ -115,7 +115,7 @@ h5,
 h6 {
   font-weight: 600;
   margin: 0px;
-  color: #081828;
+  color: #d0112a;
 }
 
 h1 a,
@@ -2077,13 +2077,16 @@ ol {
 .hero-area .hero-content p {
   margin-top: 27px;
   font-size: 15px;
-  color: #d0112a;
+  color: #141414;
+}
+
+.hero-area .hero-content-2 p,
+.hero-area .hero-content-3 p {
+  color: #141414 !important;
 }
 
 .hero-area .hero-content-2 h1,
-.hero-area .hero-content-3 h1,
-.hero-area .hero-content-2 p,
-.hero-area .hero-content-3 p {
+.hero-area .hero-content-3 h1{
   color: #d0112a !important;
 }
 
@@ -2117,7 +2120,7 @@ ol {
 }
 
 .col-wedo {
-  width: 55%;
+  width: 51%;
 }
 
 .row-wedo {
@@ -2125,7 +2128,7 @@ ol {
 }
 
 .col-weare {
-  width: 55%;
+  width: 51%;
 }
 
 .row-weare {
@@ -2301,7 +2304,6 @@ ol {
   background-color: #fff;
   border-radius: 6px;
   position: relative;
-  margin-top: 30px;
   border: 1px solid #eee;
   -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
@@ -2337,6 +2339,7 @@ ol {
 
 .features .single-feature p {
   line-height: 22px;
+  color: #141414;
 }
 
 /*======================================
