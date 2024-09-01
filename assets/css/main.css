@@ -5,12 +5,14 @@
     Normalize CSS
 ========================================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "SUSE", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #888;
@@ -2010,14 +2012,18 @@ ol {
 
 .hero-area-3 {
   position: relative;
-  padding: 100px;
-  background: #333;
+  padding: 85px;
+  background: #fff;
   /* background-image: url(../images/somos-pecan.png); */
   height: 88vh;
   scroll-margin-top: 13vh;
   background-size: cover; /* O "contain" según tus necesidades */
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.hero-area-3 p{
+  color: #141414;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3179,45 +3185,27 @@ button[type="submit"]:hover {
 
   .hero-area .hero-content p {
     margin-top: 15px;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 22px;
   }
 }
 
 .imagen-collage {
   position: relative;
-  width: 450px; /* Aumenta el tamaño del contenedor */
-  height: 450px; /* Aumenta el tamaño del contenedor */
+  width: 450px;
+  height: 450px;
 }
 
 .imagen {
   position: absolute;
-  border-radius: 5px; /* Bordes redondeados */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
-}
-
-.fondo-puntitos {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Para asegurar que la imagen de puntitos cubra todo el área */
-  opacity: 0.5; /* Transparencia para dar efecto de relieve */
-  z-index: 1; /* Fondo detrás de las otras imágenes */
+  border-radius: 5px;
 }
 
 .img1 {
-  top: 20px; /* Ajusta la posición para evitar superposición con el borde */
+  top: -4%;
   left: 20px;
-  width: 80%; /* Imagen más grande */
-  transform: rotate(-8deg); /* Rotación ligeramente mayor */
-  z-index: 2; /* Delante del fondo de puntitos */
-}
-
-.img2 {
-  bottom: 20px; /* Ajusta la posición para evitar superposición con el borde */
-  right: 20px;
-  width: 80%; /* Imagen más grande */
-  transform: rotate(8deg); /* Rotación ligeramente mayor */
-  z-index: 2; /* Delante del fondo de puntitos */
+  width: 80%;
+  filter: grayscale(100%);
 }
 
 .carousel-text-1 {
@@ -3251,4 +3239,15 @@ button[type="submit"]:hover {
   font-size: 30px;
   margin: 10px 0;
   letter-spacing: 2px;
+}
+
+.icon {
+  font-size: 25px !important;
+}
+
+.icon-honestidad:before { 
+  margin-right: .8em;
+}
+.icon-transparencia:before {
+  margin-right: .8em;
 }
