@@ -11,3 +11,6 @@ document.querySelectorAll('.flag').forEach(function(flag) {
         });
     });
 });
+
+const video = document.getElementById('video-banner');
+video.playbackRate = 0.5;
