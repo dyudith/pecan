@@ -3586,3 +3586,68 @@ button[type="submit"]:hover {
   }
 
 }
+
+@media (max-width: 390px) {
+  .carousel {
+    height: 20vh;
+  }
+
+  .hero-area {
+    padding: 10px;
+    height: auto;
+  }
+
+  .hero-area .hero-content {
+    padding: 8% 8% 0 8%;
+    text-align: left;
+    height: auto;
+  }
+
+  .col-weare {
+    width: 70%;
+  }
+
+  .col-wedo {
+    width: 80%;
+    padding: 10% 0;
+    height: 100%;
+  }
+
+  .hero-area .hero-content p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .banner {
+    padding-top: 9vh !important;
+  }
+
+  .video-banner {
+    height: 20vh !important;
+  }
+
+  .img4 {
+    bottom: 21% !important;
+  }
+
+  .overlay-text p {
+    font-size: 12px !important;
+  }
+
+  .contact-section {
+    height: 70vh !important;
+  }
+
+  .hero-content {
+    height: 100% !important;
+  }
+
+  .row-contact {
+    height: 100%;
+  }
+
+  .img-4 {
+    bottom: -3.4%;
+  }
+}
