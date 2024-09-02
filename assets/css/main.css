@@ -3179,6 +3179,15 @@ button[type="submit"]:hover {
   height: auto;
 }
 
+.carousel-container {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-container p {
+  margin: 0;
+}
+
 @media only screen and (max-width: 480px) {
   .carousel {
     height: 20vh;
@@ -3224,8 +3233,8 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 14px !important;
-    margin: 10px 0 !important;
+    font-size: 10px !important;
+    margin: 0 !important;
   }
 
   .contact-section {
@@ -3238,6 +3247,15 @@ button[type="submit"]:hover {
 
   .row-contact {
     height: 100%;
+  }
+
+  .carousel-text-1 {
+    padding: 2px;
+    margin: 0 !important;
+  }
+
+  .carousel-text-background {
+    padding: 2px;
   }
 }
 
@@ -3264,6 +3282,8 @@ button[type="submit"]:hover {
   text-transform: uppercase;
   font-weight: bolder;
   text-align: left;
+  padding: 5px;
+  margin: 0 !important;
 }
 
 .carousel-text-2 {
@@ -3466,6 +3486,15 @@ button[type="submit"]:hover {
     max-height: 80vh;
     scroll-margin-top: 13vh;
   }
+
+  .carousel-text-1 {
+    padding: 2px;
+    margin: 0 !important;
+  }
+
+  .carousel-text-background {
+    padding: 2px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3588,6 +3617,15 @@ button[type="submit"]:hover {
     scroll-margin-top: 13vh;
   }
 
+  .carousel-text-1 {
+    padding: 2px;
+    margin: 0 !important;
+  }
+
+  .carousel-text-background {
+    padding: 2px;
+  }
+
 }
 
 @media (max-width: 390px) {
@@ -3635,8 +3673,8 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 12px !important;
-    margin: 10px 0 !important;
+    font-size: 9px !important;
+    margin: 0 !important;
   }
 
   .contact-section {
@@ -3653,5 +3691,90 @@ button[type="submit"]:hover {
 
   .img-4 {
     bottom: -3.4%;
+  }
+
+  .carousel-text-1 {
+    padding: 2px;
+    margin: 0 !important;
+  }
+
+  .carousel-text-background {
+    padding: 2px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .carousel {
+    height: 20vh;
+  }
+
+  .hero-area {
+    padding: 10px;
+    height: auto;
+  }
+
+  .hero-area .hero-content {
+    padding: 8% 8% 0 8%;
+    text-align: left;
+    height: auto;
+  }
+
+  .col-weare {
+    width: 70%;
+  }
+
+  .col-wedo {
+    width: 80%;
+    padding: 10% 0;
+    height: 100%;
+  }
+
+  .hero-area .hero-content p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .banner {
+    padding-top: 9vh !important;
+  }
+
+  .video-banner {
+    height: 20vh !important;
+  }
+
+  .img4 {
+    bottom: 26% !important;
+  }
+
+  .overlay-text p {
+    font-size: 8px !important;
+    margin: 0 !important;
+  }
+
+  .contact-section {
+    height: 80vh !important;
+  }
+
+  .hero-content {
+    height: 100% !important;
+  }
+
+  .row-contact {
+    height: 100%;
+  }
+
+  .img-4 {
+    bottom: -3.4%;
+  }
+
+  .carousel-text-1 {
+    padding: 2px;
+    margin: 0 !important;
+  }
+
+  .carousel-text-background {
+    padding: 2px;
   }
 }
