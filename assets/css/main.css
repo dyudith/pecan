@@ -3225,6 +3225,7 @@ button[type="submit"]:hover {
 
   .overlay-text p {
     font-size: 14px !important;
+    margin: 10px 0 !important;
   }
 
   .contact-section {
@@ -3287,7 +3288,7 @@ button[type="submit"]:hover {
 
 .overlay-text p{
   font-size: 80%;
-  margin: 10px 0;
+  margin: 35px 0;
   letter-spacing: 2px;
 }
 
@@ -3363,6 +3364,7 @@ button[type="submit"]:hover {
 
   .overlay-text p {
     font-size: 15px;
+    margin: 10px 0;
   }
 
   .col-container-img {
@@ -3476,6 +3478,7 @@ button[type="submit"]:hover {
 
   .overlay-text p {
     font-size: 15px;
+    margin: 10px 0;
   }
 
   .col-container-img {
@@ -3633,6 +3636,7 @@ button[type="submit"]:hover {
 
   .overlay-text p {
     font-size: 12px !important;
+    margin: 10px 0 !important;
   }
 
   .contact-section {
