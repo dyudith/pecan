@@ -3181,7 +3181,7 @@ button[type="submit"]:hover {
 
 @media only screen and (max-width: 480px) {
   .carousel {
-      height: 30vh;
+    height: 20vh;
   }
 
   .hero-area {
@@ -3202,12 +3202,41 @@ button[type="submit"]:hover {
   .col-wedo {
     width: 80%;
     padding: 10% 0;
+    height: 100%;
   }
 
   .hero-area .hero-content p {
     margin-top: 15px;
     font-size: 14px;
     line-height: 22px;
+  }
+
+  .banner {
+    padding-top: 9vh !important;
+  }
+
+  .video-banner {
+    height: 20vh !important;
+  }
+
+  .img4 {
+    bottom: 13% !important;
+  }
+
+  .overlay-text p {
+    font-size: 14px !important;
+  }
+
+  .contact-section {
+    height: 65vh !important;
+  }
+
+  .hero-content {
+    height: 100% !important;
+  }
+
+  .row-contact {
+    height: 100%;
   }
 }
 
