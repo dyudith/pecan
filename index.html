@@ -64,20 +64,16 @@
                                         <a href="#wedo" class="page-scroll"
                                             aria-label="Toggle navigation" data-en="Vision" data-es="Nuestra Visión">Nuestra Visión</a>
                                     </li>
-                                    <!-- <li class="nav-item">
-                                        <a href="#notices" class="page-scroll"
-                                            aria-label="Toggle navigation">Noticias</a>
-                                    </li> -->
+                                    <li class="nav-item">
+                                        <a href="#values" class="page-scroll"
+                                            aria-label="Toggle navigation">Valores</a>
+                                    </li>
                                     <li class="nav-item">
                                         <a href="#contact" class="page-scroll"
                                             aria-label="Toggle navigation" data-en="Contact Us" data-es="Contacto">Contacto</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->
-                            <!-- <select id="languageSwitcher">
-                                <option value="es">Español</option>
-                                <option value="en">English</option>
-                            </select> -->
                             <div id="languageSwitcher" class="language-switcher">
                                 <img src="assets/images/spain.png" alt="Español" data-lang="es" class="flag">
                                 <img src="assets/images/uk.png" alt="English" data-lang="en" class="flag">
@@ -105,9 +101,14 @@
                         <source src="assets/videos/video-banner.mp4" type="video/mp4">
                     </video>
                     <div class="overlay-text">
-                        <p class="carousel-text-1">Procesamiento de <span class="carousel-text-background">minerales</span></p>
-                        <p class="carousel-text-2">de alta calidad. Con precisión y</p>
-                        <p class="carousel-text-3">tecnología avanzada</p>
+                        <div class="carousel-text">
+                            <p class="carousel-text-1">Procesamiento de <span class="carousel-text-background">minerales</span></p>
+                            <p class="carousel-text-2">de alta calidad. Con precisión y</p>
+                            <p class="carousel-text-3">tecnología avanzada</p>
+                        </div>
+                        <div class="carousel-img">
+                            <img src="assets/images/recurso5.svg" class="img5">
+                        </div>
                     </div>
                 </div>
                 <!-- <div class="carousel-item">
@@ -133,13 +134,14 @@
     <section id="weare" class="hero-area-3 hero-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-container col-container-img">
                     <div class="imagen-collage">
                         <img src="assets/images/4-pecan.jpeg" class="imagen img1">
+                        <img src="assets/images/recurso4.svg" class="img4" alt="#">
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about-content mt-45 hero-content">
+                <div class="col-lg-6 col-container-text">
+                    <div class="hero-content">
                         <h1 data-en="Who are we?" data-es="¿Quienes somos?" class="wow fadeInLeft" data-wow-delay=".4s" class="about-title mt-10">¿Quiénes somos?</h1>
                         <br>
                         <p class="wow fadeInLeft" data-wow-delay=".6s" data-en="In PECAN. SA, we specialize in the processing of minerals, such as gold, silver, bronze and others. Our processing plant is equipped with cutting-edge technology and a team of highly trained professionals, dedicated to ensuring maximum efficiency and quality at each stage of production." data-es="En CORPORACIÓN MINERA PECAN SAC, nos especializamos en la procesamiento de minerales, como oro, plata, bronce y otros. Nuestra planta procesadora está equipada con tecnología de punta y un equipo de profesionales altamente capacitados, dedicados a asegurar la máxima eficiencia y calidad en cada etapa de producción.">En CORPORACIÓN MINERA PECAN SAC, nos especializamos en la procesamiento de minerales, como oro, plata, bronce y otros. Nuestra planta procesadora está equipada con tecnología de punta y un equipo de profesionales altamente capacitados, dedicados a asegurar la máxima eficiencia y calidad en cada etapa de producción.</p>
@@ -168,31 +170,45 @@
                 </div>
             </div>
         </div>
+        <img class="img-4" src="assets/images/recurso4.svg" alt="#">
     </section>
     <!-- End WeDo Area -->
 
-    <!-- Start Features Area -->
-    <section id="features" class="features section">
+    <!-- Start values Area -->
+    <section id="values" class="features section">
         <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s" data-en="Our Values" data-es="Nuestros Valores">Nuestros Valores</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="icon icon-honestidad"></i>
-                        <h3 data-en="Honesty" data-es="Honestidad">Honestidad</h3>
+                        <div class="icon-text">
+                            <i class="icon icon-honestidad"></i>
+                            <h3 data-en="Honesty" data-es="Honestidad">Honestidad</h3>
+                        </div>
                         <p data-en="We operate with complete integrity in every aspect of our business." data-es="Operamos con total integridad en cada aspecto de nuestro negocio.">Operamos con total integridad en cada aspecto de nuestro negocio.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="icon icon-responsabilidad"></i>
-                        <h3 data-en="Responsibility" data-es="Responsabilidad">Responsabilidad</h3>
+                        <div class="icon-text">
+                            <i class="icon icon-responsabilidad"></i>
+                            <h3 data-en="Responsibility" data-es="Responsabilidad">Responsabilidad</h3>
+                        </div>
                         <p data-en="We are committed to sustainable growth and the well-being of our communities." data-es="Nos comprometemos con el crecimiento sostenible y el bienestar de nuestras comunidades.">Nos comprometemos con el crecimiento sostenible y el bienestar de nuestras comunidades.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="icon icon-transparencia"></i>
-                        <h3 data-en="Transparency" data-es="Transparencia">Transparencia</h3>
+                        <div class="icon-text">
+                            <i class="icon icon-transparencia"></i>
+                            <h3 data-en="Transparency" data-es="Transparencia">Transparencia</h3>
+                        </div>
                         <p data-en="We maintain open and clear communication with our partners and clients." data-es="Mantenemos una comunicación abierta y clara con nuestros socios y clientes.">Mantenemos una comunicación abierta y clara con nuestros socios y clientes.</p>
                     </div>
                 </div>
