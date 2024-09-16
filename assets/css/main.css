@@ -2702,8 +2702,7 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer .footer-top {
-    padding: 80px 0;
-    padding-top: 40px;
+    padding: 45px 0 80px 0;
   }
 }
 
@@ -3129,14 +3128,14 @@ button[type="submit"]:hover {
 }
 
 .language-switcher .flag {
-  width: 32px;   /* Tamaño de la bandera */
+  width: 32px;
   height: auto;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
 .language-switcher .flag:hover {
-  transform: scale(1.1);  /* Efecto hover */
+  transform: scale(1.1);
 }
 
 /*  VIDEO */
@@ -3233,7 +3232,8 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 10px !important;
+    font-size: 10px;
+    padding: 2px;
     margin: 0 !important;
   }
 
@@ -3250,12 +3250,7 @@ button[type="submit"]:hover {
   }
 
   .carousel-text-1 {
-    padding: 2px;
     margin: 0 !important;
-  }
-
-  .carousel-text-background {
-    padding: 2px;
   }
 }
 
@@ -3282,7 +3277,6 @@ button[type="submit"]:hover {
   text-transform: uppercase;
   font-weight: bolder;
   text-align: left;
-  padding: 5px;
   margin: 0 !important;
 }
 
@@ -3307,9 +3301,11 @@ button[type="submit"]:hover {
 }
 
 .overlay-text p{
-  font-size: 80%;
+  font-size: 100%;
   margin: 35px 0;
   letter-spacing: 2px;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 .icon {
@@ -3375,6 +3371,11 @@ button[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .carousel {
+    height: 30vh;
+  }
+
   .overlay-text {
     width: 100%;
     top: 50%;
@@ -3383,8 +3384,9 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 15px;
+    font-size: 23px;
     margin: 10px 0;
+    padding: 2px;
   }
 
   .col-container-img {
@@ -3404,19 +3406,20 @@ button[type="submit"]:hover {
     height: auto;
     max-width: 100%;
     order: 2;
+    margin-top: 5%;
   }
 
   .imagen-collage {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     max-width: 100%;
   }
 
   .img1 {
     display: block;
-    left: 10%;
+    left: 13%;
     top: 10%;
   }
 
@@ -3431,13 +3434,12 @@ button[type="submit"]:hover {
   .img-4 {
     display: block;
     position: absolute;
-    bottom: -4%;
     right: -1%;
-    width: 35%;
+    width: 30%;
     height: auto;
     transform: rotate(225deg);
     z-index: 2;
-  }
+}
 
   .expanding-div {
     padding-bottom: 15% !important;
@@ -3446,13 +3448,13 @@ button[type="submit"]:hover {
   .img4 {
     width: 50%;
     position: absolute;
-    bottom: 9%;
-    right: 1%;
+    bottom: -32%;
+    right: -3%;
     height: auto;
   }
 
   .footer .single-footer.f-about .logo img {
-    width: 50%;
+    width: 100%;
   }
   
   .scroll-top {
@@ -3482,18 +3484,96 @@ button[type="submit"]:hover {
   }
 
   .banner {
-    padding-top: 13vh;
+    padding-top: 7vh;
     max-height: 80vh;
     scroll-margin-top: 13vh;
   }
 
   .carousel-text-1 {
-    padding: 2px;
     margin: 0 !important;
   }
 
-  .carousel-text-background {
-    padding: 2px;
+  .hero-area .hero-content {
+    text-align: left;
+    height: auto;
+  }
+
+  .hero-area-3 {
+    padding: 10px;
+    scroll-margin-top: 7vh;
+  }
+
+  .hero-area {
+    padding: 10px;
+  }
+
+  .col-wedo {
+    width: 80%;
+    padding: 10% 0;
+    height: 100%;
+  }
+
+  .hero-area .hero-content h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .contact-section {
+    height: 70vh;
+    scroll-margin-top: 7vh;
+  }
+
+  .contact-section .container {
+    height: 100%;
+  }
+
+  .row-contact {
+    height: 100%;
+  }
+
+  .hero-area-2 {
+    scroll-margin-top: 7vh;
+  }
+
+  .features {
+    scroll-margin-top: 7vh;
+  }
+}
+
+/* ipad mini */
+@media only screen and (min-width: 768px) and (max-width: 991px) and (max-height: 1024px) {
+  .hero-area-3 {
+    height: 87vh;
+  }
+
+  .hero-area-2 {
+    height: 63vh;
+  }
+
+  .img-4 {
+    bottom: -6.2%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) and (min-height: 1025px) {
+  .hero-area-3 {
+    height: 76vh;
+  }
+
+  .hero-area-2 {
+    height: 55vh;
+  }
+
+  .img-4 {
+    bottom: -6.6%;
+  }
+
+  .contact-section {
+    height: 60vh;
+  }
+
+  .contact-section .col-wedo .hero-content {
+    height: 100%;
   }
 }
 
@@ -3506,8 +3586,9 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 15px;
+    font-size: 12px;
     margin: 10px 0;
+    padding: 2px;
   }
 
   .col-container-img {
@@ -3618,12 +3699,7 @@ button[type="submit"]:hover {
   }
 
   .carousel-text-1 {
-    padding: 2px;
     margin: 0 !important;
-  }
-
-  .carousel-text-background {
-    padding: 2px;
   }
 
 }
@@ -3673,8 +3749,9 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 9px !important;
+    font-size: 10px;
     margin: 0 !important;
+    padding: 2px;
   }
 
   .contact-section {
@@ -3694,12 +3771,7 @@ button[type="submit"]:hover {
   }
 
   .carousel-text-1 {
-    padding: 2px;
     margin: 0 !important;
-  }
-
-  .carousel-text-background {
-    padding: 2px;
   }
 
 }
@@ -3749,8 +3821,9 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 8px !important;
+    font-size: 9px !important;
     margin: 0 !important;
+    padding: 2px;
   }
 
   .contact-section {
@@ -3770,11 +3843,67 @@ button[type="submit"]:hover {
   }
 
   .carousel-text-1 {
-    padding: 2px;
     margin: 0 !important;
   }
+}
 
-  .carousel-text-background {
-    padding: 2px;
+@media only screen and (min-width: 1920px) {
+  .banner {
+    padding-top: 6em;
   }
+
+  .overlay-text {
+    top: 45%;
+  }
+
+  .overlay-text p {
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    margin: 40px 0;
+    padding: 20px;
+  }
+
+  .imagen-collage {
+    width: 40em;
+    height: 40em;
+  }
+
+  .hero-area .hero-content p {
+    font-size: 1.33em;
+    line-height: 1.5;
+  }
+
+  .hero-area-3 .hero-content {
+    width: 50em;
+    height: 100%;
+  }
+
+  .hero-area-3 {
+    scroll-margin-top: 6em;
+    padding-top: 10%;
+    height: 92vh;
+  }
+
+  .hero-area-2 {
+    scroll-margin-top: 6em;
+    height: 92vh;
+  }
+
+  .hero-area-2 .hero-content {
+    height: 92vh;
+  }
+
+  .features {
+    scroll-margin-top: 6em;
+  }
+
+  .contact-section {
+    scroll-margin-top: 6em;
+    height: 60vh;
+  }
+
+  .contact-section .hero-content {
+    height: 100%;
+  }
+
 }
