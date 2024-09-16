@@ -3434,10 +3434,10 @@ button[type="submit"]:hover {
   .img-4 {
     display: block;
     position: absolute;
-    right: -1%;
+    right: 0;
+    bottom: 0;
     width: 30%;
     height: auto;
-    transform: rotate(225deg);
     z-index: 2;
 }
 
@@ -3550,9 +3550,9 @@ button[type="submit"]:hover {
     height: 63vh;
   }
 
-  .img-4 {
+  /* .img-4 {
     bottom: -6.2%;
-  }
+  } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) and (min-height: 1025px) {
@@ -3564,9 +3564,9 @@ button[type="submit"]:hover {
     height: 55vh;
   }
 
-  .img-4 {
+  /* .img-4 {
     bottom: -6.6%;
-  }
+  } */
 
   .contact-section {
     height: 60vh;
@@ -3635,11 +3635,10 @@ button[type="submit"]:hover {
   .img-4 {
     display: block;
     position: absolute;
-    bottom: -4%;
-    right: -1%;
+    right: 0;
+    bottom: 0;
     width: 35%;
     height: auto;
-    transform: rotate(225deg);
     z-index: 2;
   }
 
@@ -3766,9 +3765,9 @@ button[type="submit"]:hover {
     height: 100%;
   }
 
-  .img-4 {
+  /* .img-4 {
     bottom: -3.4%;
-  }
+  } */
 
   .carousel-text-1 {
     margin: 0 !important;
@@ -3838,9 +3837,9 @@ button[type="submit"]:hover {
     height: 100%;
   }
 
-  .img-4 {
+  /* .img-4 {
     bottom: -3.4%;
-  }
+  } */
 
   .carousel-text-1 {
     margin: 0 !important;
