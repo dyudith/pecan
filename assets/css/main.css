@@ -2002,7 +2002,8 @@ ol {
   position: relative;
   padding: 0 0 0 0;
   background: #ffffff;
-  background-image: url(../images/vision-pecan.png);
+  /* background-image: url(../images/vision-pecan.png); */
+  background-image: url(../images/pecan-nuestravision.png);
   height: 88vh;
   scroll-margin-top: 13vh;
   background-size: cover;
@@ -3238,7 +3239,7 @@ button[type="submit"]:hover {
   }
 
   .contact-section {
-    height: 65vh !important;
+    height: 70vh !important;
   }
 
   .hero-content {
@@ -3586,7 +3587,7 @@ button[type="submit"]:hover {
   }
 
   .overlay-text p {
-    font-size: 12px;
+    font-size: 0.23em;
     margin: 10px 0;
     padding: 2px;
   }
